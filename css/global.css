@@ -1,0 +1,82 @@
+:root {
+    --header-size: 5rem;
+    --nav-content-size: calc(5rem + 1);
+    --double-size: calc(5rem + 4rem);
+    --triple-size: calc(5rem + 8rem);
+    --quad-size: calc(5rem + 12rem);
+}
+::selection {
+    background-color: rgb(163, 85, 251);
+}
+
+::-webkit-scrollbar {
+    width: 2vh;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(168, 85, 247);
+    border-radius: 10px;
+}
+
+/* Heading Text */
+h1 {
+    text-shadow: 0 10px 0 rgb(0, 0, 0, 0.4);
+}
+h2 {
+    text-shadow: 0 5px 0 rgb(0, 0, 0, 0.4);
+}
+h3 {
+    text-shadow: 0 3px 0 rgb(0, 0, 0, 0.4);
+}
+h4 {
+    text-shadow: 0 2px 0 rgb(0, 0, 0, 0.4);
+}
+
+h1::selection {
+    text-shadow: 0 10px 0 rgb(0, 0, 0, 0.4);
+}
+h2::selection {
+    text-shadow: 0 5px 0 rgb(0, 0, 0, 0.4);
+}
+h3::selection {
+    text-shadow: 0 3px 0 rgb(0, 0, 0, 0.4);
+}
+h4::selection {
+    text-shadow: 0 2px 0 rgb(0, 0, 0, 0.4);
+}
+
+/* Header Menu */
+#activities:hover #activities-content {
+    display: flex;
+}
+#legal-issuances:hover #legal-issuances-content {
+    display: flex;
+}
+#anti-human-trafficking:hover #anti-human-trafficking-content {
+    display: flex;
+}
+#iec-materials:hover #iec-materials-content {
+    display: flex;
+}
+#sex-disaggregated-data:hover #sex-disaggregated-data-content {
+    display: flex;
+}
+#tech-initiatives:hover #tech-initiatives-content {
+    display: flex;
+}
+
+.navigation-menu {
+    display: none;
+}
+#Header-Nav-Menu {
+    animation: slide-in 500ms ease-out;
+}
+
+/* Animation */
+@keyframes slide-in {
+    0% {
+        translate: 200px 0;
+    } 100% {
+        translate: 0 0;
+    }
+}
