@@ -14,7 +14,7 @@ const translations = {
     "I. What is the Country Familiarization Seminar (CFS) for Au Pairs?": "I. Ano ang Seminar sa Pagkilala ng Bansa (CFS) para sa mga Au Pairs?",
     "II. Requirements for Registration": "II. Mga Kinakailangan sa Pagpaparehistro",
     "III. How to Make an Online Appointment": "III. Paano Gumawa ng Online na Appointment",
-    "IV. Schedule of Country Familiarization Seminar": "IV. Iskedyul ng Seminar sa Pagkilala ng Bansa",
+    "IV. Schedule of Country Familiarization Seminar": "IV. Talatakdaan ng Seminar sa Pagkilala ng Bansa",
     "V. FLYER": "V. POLYETO",
     
     // Content paragraphs for I.
