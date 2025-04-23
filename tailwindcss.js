@@ -2387,7 +2387,13 @@
                     md: "768px",
                     lg: "1024px",
                     xl: "1280px",
-                    "2xl": "1536px"
+                    "2xl": "1536px",
+                    "3xl": "1792px",
+                    "4xl": "2048px",
+                    "5xl": "2304px",
+                    "6xl": "2560px",
+                    "7xl": "2816px",
+                    "8xl": "3072px",
                 },
                 scrollMargin: ({
                     theme: r
